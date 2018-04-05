@@ -59,7 +59,7 @@ selector  */
 }
 
 .index img{
-  width: 200px;
+  height: 200px;
 }
 /* Para aplicar modificaciones a imágenes con etiqueta services. */
 .services img{
