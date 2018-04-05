@@ -58,9 +58,7 @@ selector  */
   min-height: 100vh;
 }
 
-.index img{
-  height: 100px;
-}
+
 /* Para aplicar modificaciones a imágenes con etiqueta services. */
 .services img{
   width: 170px;
