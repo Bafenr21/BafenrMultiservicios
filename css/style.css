@@ -57,9 +57,20 @@ selector  */
 .main-container{
   min-height: 100vh;
 }
+
+.index img{
+  width: 200px;
+}
 /* Para aplicar modificaciones a imágenes con etiqueta services. */
 .services img{
   width: 170px;
+}
+.index h1{
+  font-family: 'Macondo', cursive;
+  font-size: 1.8em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #032d0d;
 }
 .services h3{
   font-family: 'Macondo', cursive;
