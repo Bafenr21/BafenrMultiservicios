@@ -1,0 +1,111 @@
+body{
+  font-size: 14px;
+  /* font-weight Negritas */
+  font-family:Times, Helvetica,   Arial    ;
+}
+.body{
+  padding: 40px 10px;
+}
+/* Tipo de letra escogido desde google fonts */
+.macondo{
+  font-family: 'Macondo', cursive;
+}
+.title{
+  font-size: 3.0em;
+  margin-top: 0;
+}
+/* Selector de etiqueta Header: Hace que para todos los header se apliquen
+mismas propiedades.Al poner .main-header lo que se hace es que las propiedades
+se apliquen solo a la clase "main-header" */
+.main-header{
+  background-color: #0D324D;
+  padding-left:12px;
+  padding-right:12px;
+  padding-top:8px;
+  padding-bottom:8px;
+  border-radius: 4px;
+}
+.servicios_main-header{
+  background-color: #0D324D;
+  padding-left:12px;
+  padding-right:12px;
+  padding-top:8px;
+  padding-bottom:8px;
+  border-radius: 4px;
+}
+/*Propiedades para los links con el nombre de clase "nav-link". Si se desea
+realizar algún cambio en los links se adiciona dentro de las llaves del
+selector  */
+.nav-link{
+ color: #9FB1BC;
+ margin-right:-4px;
+ /* text-decoration para que no salga subrayyado */
+ text-decoration: none;
+ width: 33%;
+ display: inline-block;
+ font-size: 1.1em;
+ font-family: 'Yatra One', cursive;
+}
+.text-center{
+ text-align: center;
+ image-orientation: left;
+}
+.color-title{
+ color: #3E2FB5
+}
+/* Lo que esté dentro de la clase con el comando min-height se cubre el porcentaje específicado, en este caso 100vh = 100% */
+.main-container{
+  min-height: 100vh;
+}
+/* Para aplicar modificaciones a imágenes con etiqueta services. */
+.services img{
+  width: 170px;
+}
+.services h3{
+  font-family: 'Macondo', cursive;
+  font-size: 1.8em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #032d0d;
+}
+
+.services p{
+   font-family: 'Yatra One', cursive;
+   font-size: 1.2em;
+   margin-top: 2px;
+   margin-bottom: 1px;
+   color: #0D324D ;
+}
+.card{
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #FCFCFC;
+  /* (Sombra) box-shadow = distancia en x distancia en y desenfoque propagación color*/
+  box-shadow: 1px 2px 3px #9FB1BC;
+}
+.threeD{
+  /* Sombra para tres dimensiones, texto. Mismo color del texto pero más oscuro */
+  text-shadow: 1px 3px 0px #9fb1bc, 1px 10px 5px #9fb1bc;
+}
+/*  Retrasos de entrada = delay*/
+.delay-1{
+  animation: delay:0.1s;
+  position: relative;
+  z-index: 5;
+
+}
+.delay-2{
+  animation: delay:0.2s;
+  position: relative;
+  z-index: 4;
+}
+.delay-3{
+  animation: delay:0.3s;
+  position: relative;
+  z-index: 3;
+}
+.delay-4{
+  animation: delay:0.4s;
+  position: relative;
+  z-index: 2;
+}
