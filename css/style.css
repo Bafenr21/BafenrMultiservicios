@@ -21,6 +21,9 @@ body{
   margin-top: 0px;
   margin-bottom: 10px;
 }
+.title img{
+  width: 170px;
+}
 /* Selector de etiqueta Header: Hace que para todos los header se apliquen
 mismas propiedades.Al poner .main-header lo que se hace es que las propiedades
 se apliquen solo a la clase "main-header" */
