@@ -12,8 +12,8 @@ body{
 }
 .title h1{
   font-size: 3.0em;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .title h3{
   font-family: 'Macondo', cursive;
