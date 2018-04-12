@@ -10,10 +10,16 @@ body{
 .macondo{
   font-family: 'Macondo', cursive;
 }
-.title{
+.title h1{
   font-size: 3.0em;
   margin-top: 0;
   margin-bottom: 1;
+}
+.title h3{
+  font-family: 'Macondo', cursive;
+  font-size: 1.8em;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 /* Selector de etiqueta Header: Hace que para todos los header se apliquen
 mismas propiedades.Al poner .main-header lo que se hace es que las propiedades
