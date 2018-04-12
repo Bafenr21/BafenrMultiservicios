@@ -13,6 +13,7 @@ body{
 .title{
   font-size: 3.0em;
   margin-top: 0;
+  margin-bottom: 1;
 }
 /* Selector de etiqueta Header: Hace que para todos los header se apliquen
 mismas propiedades.Al poner .main-header lo que se hace es que las propiedades
